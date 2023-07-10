@@ -1,0 +1,14 @@
+First check out the master branch:
+git checkout master
+
+git branch solving
+git checkout base64
+git rebase master (If conflict occur, resolve this problem)
+git rebase --continue
+git checkout user-agent
+git rebase master
+
+At last, push the branches:
+git push origin base64
+git push origin user-agent
+git branch -D solving (delete the solving branch)
